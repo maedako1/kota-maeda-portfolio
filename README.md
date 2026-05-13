@@ -1,6 +1,18 @@
 # Kota Maeda — portfolio & slides
 
-Single-page portfolio (`index.html`) and a **Reveal.js** deck (`slides/index.html`) in Japanese / English, aligned with the July 2025 self-introduction materials.
+Single-page portfolio (`index.html`) and a **Reveal.js** deck (`slides/index.html`) in **English**, aligned with the July 2025 self-introduction materials.
+
+## PowerPoint (python-pptx)
+
+The parent folder (one level above this repo) holds your template `20250701*.pptx` and the generator script.
+
+```bash
+cd ..
+pip install -r scripts/requirements.txt
+python scripts/build_intro_en_pptx.py
+```
+
+This writes **`Kota_Maeda_SelfIntroduction_EN.pptx`** next to the template (same 4:3 size, theme / colours from your deck: red `#D51317`, footer teal `#009FB2`, Segoe UI).
 
 ## Preview locally
 
